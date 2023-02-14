@@ -144,6 +144,18 @@ img {
   justify-content: center;
 }
 
+.nav__logo {
+  align-items: center;
+  color: var(--white-color);
+  column-gap: .5rem;
+  display: flex;
+  font-family: var(--second-font);
+  font-size: var(--h3-font-size);
+}
+.nav__logo img{
+  width: 28px;
+}
+
 /* Navigation for mobile devices */
 
 
