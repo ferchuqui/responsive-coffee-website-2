@@ -111,11 +111,38 @@ img {
 }
 
 .main {
-  overflow: hidden; /* For animation ScrollReveal */
+  overflow: hidden;
+  /* For animation ScrollReveal */
 }
 
 /*=============== HEADER & NAV ===============*/
+.header {
+  background-color: var(--first-color);
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: background .4s, box-shadow .4s;
+  width: 100%;
+  z-index: var(--z-fixed);
+}
 
+.header__border {
+  background-image: linear-gradient(90deg), var(--text-color-light) 50, transparent 50%;
+  background-size: 24px;
+  bottom: 0;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transition: opacity .3s;
+  width: 100%;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  height: var(--header-height);
+  justify-content: center;
+}
 
 /* Navigation for mobile devices */
 
