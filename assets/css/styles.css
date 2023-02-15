@@ -185,6 +185,12 @@ img {
   row-gap: .25rem;
   transition: color .3s;
 }
+.nav__link i{
+  background-clip: text;
+  background: linear-gradient(180deg, hsl(39, 62%, 75%)0%, (39, 62%, 45%) 100%);
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
 
 /* Change background header */
 
